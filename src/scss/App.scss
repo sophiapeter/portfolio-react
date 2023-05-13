@@ -1,0 +1,8 @@
+@import './variables.scss';
+.app {
+  background-color: $backColor;
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr;
+  gap: $offSetLevel_3;
+  
+}
