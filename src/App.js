@@ -1,17 +1,22 @@
 import './scss/App.scss';
-// import { useEffect } from 'react';
-
+import person from './userData/userInfo.json'
 
 
 
 function App() {
- 
+  const {firstName, lastName, age, languages, skills, address} = person
 
-  return (
+ return (
     <div className="app">
-     <div>Left</div>
-     <div>middl</div>
-     <div>right</div>
+     <div className='sidebar left'>
+        person info
+     </div>
+     <div className='middle'>
+        wall
+     </div>
+     <div className='sidebar right'>
+        navigation
+     </div>
     </div>
   );
 }
