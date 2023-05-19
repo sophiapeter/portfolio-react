@@ -24,6 +24,14 @@ function App() {
                </div>
             )
          })}
+            <h5>Skills</h5>
+         {skills.map((skill, index) => {
+            return (
+               <div key={index}>
+                  {skill.language + " level " + skill.level }
+               </div>
+            )
+         })}
         
       </div>
         person info
